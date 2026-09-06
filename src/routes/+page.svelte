@@ -3,8 +3,8 @@
   import ProgressList from "$lib/components/ProgressList.svelte";
 
   const links: { name: string; username: string; url: string }[] = [
-    { name: "instagram", username: "@shiikasenbei", url: "https://instagram.com/shiikasenbei" },
     { name: "twitter", username: "@shiikasenbei", url: "https://x.com/shiikasenbei" },
+    { name: "instagram", username: "@shiikasenbei", url: "https://instagram.com/shiikasenbei" },
     { name: "twitch", username: "@shiikasenbei", url: "https://twitch.tv/shiikasenbei" },
     { name: "discord server", username: "shikacord", url: "https://discord.com/invite/qEXM5PzTqB" },
     { name: "pixiv", username: "shika", url: "https://www.pixiv.net/en/users/128340030" },
