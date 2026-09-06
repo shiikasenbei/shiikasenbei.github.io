@@ -1,12 +1,13 @@
 <script lang="ts">
   import "./layout.css";
-  import favicon from "$lib/assets/favicon.svg";
 
   import deer from "$lib/assets/deer.jpeg";
   let { children } = $props();
 </script>
 
-<svelte:head><link rel="icon" href={favicon} /></svelte:head>
+<svelte:head>
+  <title>shika "shika" senbei</title>
+</svelte:head>
 <div class="page-wrapper">
   <main class="page-main">
     {@render children()}
