@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Valley+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Scoutie+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 @import "tailwindcss";
 
 @plugin "@tailwindcss/typography";
 
 @theme {
-  --font-sans: "Valley Sans", sans-serif;
+  --font-sans: "Scoutie Sans", sans-serif;
 }
 @layer components {
   .page-wrapper {

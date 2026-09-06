@@ -13,8 +13,9 @@
     {@render children()}
   </main>
   <footer class="page-footer">
-    <div class="w-1/2">
+    <div class="flex w-1/2 flex-row items-start align-middle">
       <img alt="deer" src={deer} class="h-16 w-16" />
+      <p class="px-2 text-sm text-gray-600">(if you can't see the image open it in a new tab)</p>
     </div>
     <div class="w-1/2 flex-col">
       <p class="font-bold">shika portfolio shitpost website</p>

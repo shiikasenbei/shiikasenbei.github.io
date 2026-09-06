@@ -33,7 +33,9 @@
     </div>
     <div class="flex-col pl-2">
       <p class="text-2xl font-bold">things i'm working on</p>
-      <ProgressList {things} />
+      <div class="py-4">
+        <ProgressList {things} />
+      </div>
     </div>
   </div>
 </div>
