@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Valley+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Valley+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 @import "tailwindcss";
 
 @plugin "@tailwindcss/typography";
@@ -7,14 +7,14 @@
   --font-sans: "Valley Sans", sans-serif;
 }
 @layer components {
-    .page-wrapper {
-      @apply flex min-h-screen flex-col;
-    }
+  .page-wrapper {
+    @apply flex min-h-screen flex-col;
+  }
 
-    .page-main {
-      @apply flex-1;
-    }
-    .page-footer {
-        @apply flex-row flex items-start p-4 border-t border-gray-500;
-    }
+  .page-main {
+    @apply flex-1;
+  }
+  .page-footer {
+    @apply flex flex-row items-start border-t border-gray-500 p-4;
+  }
 }
