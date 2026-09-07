@@ -1,5 +1,7 @@
 <script lang="ts">
-  let { things }: { things: { name: string; inProgress: boolean }[] } = $props();
+  import type { WorkItem } from "$lib/types";
+
+  let { things }: { things: WorkItem[] } = $props();
   let inProgress = $derived(things.filter((t) => t.inProgress));
   let backlog = $derived(things.filter((t) => !t.inProgress));
 </script>
@@ -14,7 +16,7 @@
     {/each}
   </div>
 
-  <p class="text-lg font-bold">backlog:</p>
+  <p class="text-lg font-bold">backlog (note that these are not in order):</p>
   <div class="pl-2">
     {#each backlog as item}
       <p>{item.name}</p>
