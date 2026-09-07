@@ -1,10 +1,10 @@
 <script lang="ts">
-  import type { SocialLink } from "$lib/types";
+  import type { SocialLink } from "$lib/types"
 
-  let { name, username, url }: SocialLink = $props();
+  let { name, username, url }: SocialLink = $props()
   const openLink = () => {
-    window.open(url, "_blank");
-  };
+    window.open(url, "_blank")
+  }
 </script>
 
 <button
