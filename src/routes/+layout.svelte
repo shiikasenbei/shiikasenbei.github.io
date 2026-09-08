@@ -25,7 +25,7 @@
       </p>
     </div>
     <div class="flex flex-col pl-2">
-      <p class="font-bold">the shika portfolio shitpost website</p>
+      <p class="font-bold">the shika senbei shitpost website</p>
       <p class="text-gray-500">
         designed and built by shika "shika" senbei, for shika "shika" senbei
       </p>

@@ -56,8 +56,8 @@
       <div class="flex-col">
         <p class="text-2xl font-bold">things i'm working on</p>
         <p class="text-sm text-gray-500 italic">
-          shiori is not mentioned here, but assume she is always being drawn at any given point.
-          even if she isn't.
+          shiori isn't mentioned here, but assume she is always being drawn at any given point, even
+          if she isn't.
         </p>
         <div class="pb-4">
           <ProgressList {things} />
@@ -81,7 +81,7 @@
     <div class="w-1/2 flex-col border-l border-gray-400 pl-2">
       <p class="text-2xl font-bold">things i'm working on</p>
       <p class="text-sm text-gray-500 italic">
-        shiori is not mentioned here, but assume she is always being drawn at any given point. even
+        shiori isn't mentioned here, but assume she is always being drawn at any given point, even
         if she isn't.
       </p>
       <div class="pb-4">
