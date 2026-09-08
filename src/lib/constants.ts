@@ -9,9 +9,8 @@ export const SOCIAL_LINKS: SocialLink[] = [
 ]
 export const WORK_ITEMS: WorkItem[] = [
   { name: "30 days of shikamaxxing", inProgress: true },
-  { name: "haru urara", inProgress: true },
-  { name: "oc design (maybe?)", inProgress: false },
-  { name: "gigi murin", inProgress: false },
+  { name: "oc design (maybe?)", inProgress: true },
+  { name: "gigi murin", inProgress: true },
   { name: "ouro kronii", inProgress: false },
   { name: "raora panthera", inProgress: false },
 ]
