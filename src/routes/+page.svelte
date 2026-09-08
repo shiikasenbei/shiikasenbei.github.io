@@ -1,12 +1,13 @@
 <script lang="ts">
   import Card from "$lib/components/Card.svelte"
+  import FAQ from "$lib/components/FAQ.svelte"
   import ProgressList from "$lib/components/ProgressList.svelte"
   import { SOCIAL_LINKS, WORK_ITEMS } from "$lib/constants"
   import { MediaQuery } from "svelte/reactivity"
 
   const links = SOCIAL_LINKS
   const things = WORK_ITEMS
-  let currentTab = $state(0) // 0: socials, 1: things i'm working on
+  let currentTab = $state(0) // 0: socials, 1: things i'm working on, 2: faq
   const setTabState = (tab: number) => {
     currentTab = tab
   }
@@ -15,16 +16,28 @@
 <div class="flex h-full w-full flex-col">
   <div class="border-b border-gray-400 p-4">
     <p class="text-2xl font-bold">shika "shika" senbei</p>
-    <p>i'm an idiot</p>
+    <p>i'm an idiot, and an artist apparently</p>
   </div>
   <div
-    class="flex flex-row border-b border-gray-400 *:font-bold *:transition-colors md:hidden lg:hidden"
+    class="flex flex-row border-b border-gray-400 p-1 *:font-bold *:transition-colors md:hidden lg:hidden"
   >
-    <button onclick={() => setTabState(0)} class="p-4">
+    <button
+      onclick={() => setTabState(0)}
+      class="rounded-md p-3 transition-colors hover:bg-gray-200"
+    >
       <p class={currentTab !== 0 ? "text-gray-400" : "text-black"}>socials</p>
     </button>
-    <button onclick={() => setTabState(1)} class="p-4">
+    <button
+      onclick={() => setTabState(1)}
+      class="rounded-md p-3 transition-colors hover:bg-gray-200"
+    >
       <p class={currentTab !== 1 ? "text-gray-400" : "text-black"}>things i'm working on</p>
+    </button>
+    <button
+      onclick={() => setTabState(2)}
+      class="rounded-md p-3 transition-colors hover:bg-gray-200"
+    >
+      <p class={currentTab !== 2 ? "text-gray-400" : "text-black"}>faq</p>
     </button>
   </div>
   <div class="p-4 md:hidden lg:hidden">
@@ -44,15 +57,18 @@
         <p class="text-2xl font-bold">things i'm working on</p>
         <p class="text-sm text-gray-500 italic">
           shiori is not mentioned here, but assume she is always being drawn at any given point.
+          even if she isn't.
         </p>
         <div class="pb-4">
           <ProgressList {things} />
         </div>
       </div>
+    {:else if currentTab == 2}
+      <FAQ />
     {/if}
   </div>
   <div class="hidden h-full w-full flex-row p-4 md:flex lg:flex">
-    <div class="h-full w-1/2 border-r border-gray-400 pr-2">
+    <div class="h-full w-1/2 pr-2">
       <p class="text-2xl font-bold">socials</p>
       <div class="flex flex-col py-4">
         {#each links as link}
@@ -62,13 +78,17 @@
         {/each}
       </div>
     </div>
-    <div class="w-1/2 flex-col pl-2">
+    <div class="w-1/2 flex-col border-l border-gray-400 pl-2">
       <p class="text-2xl font-bold">things i'm working on</p>
       <p class="text-sm text-gray-500 italic">
-        shiori is not mentioned here, but assume she is always being drawn at any given point.
+        shiori is not mentioned here, but assume she is always being drawn at any given point. even
+        if she isn't.
       </p>
       <div class="pb-4">
         <ProgressList {things} />
+      </div>
+      <div class="flex-col border-t border-gray-400 pt-4">
+        <FAQ />
       </div>
     </div>
   </div>

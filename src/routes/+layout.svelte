@@ -14,7 +14,12 @@
   </main>
   <footer class="page-footer">
     <div class="flex w-1/2 flex-row items-center">
-      <img alt="deer" src={deer} class="h-12 w-12" />
+      <img
+        alt="deer"
+        src={deer}
+        class="h-12 w-12"
+        title="(if you can't see the image open it in a new tab)"
+      />
       <p class="hidden px-2 text-sm text-gray-500 md:flex lg:flex">
         (if you can't see the image open it in a new tab)
       </p>
