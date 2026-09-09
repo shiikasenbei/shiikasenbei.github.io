@@ -7,8 +7,13 @@
 </script>
 
 <div class="w-full">
-  <p class="text-lg font-bold">i am currently working on:</p>
-  <div class="pl-2">
+  <p class="section-heading">things i'm working on</p>
+  <p class="help-text">
+    shiori isn't mentioned here, but assume she is always being drawn at any given point, even if
+    she isn't.
+  </p>
+  <p class="subsection-heading">i am currently working on:</p>
+  <div class="subsection-body">
     {#each inProgress as item}
       <p class="border-b border-gray-200 py-1 last:border-none">{item.name}</p>
     {:else}
@@ -16,8 +21,8 @@
     {/each}
   </div>
 
-  <p class="text-lg font-bold">backlog (note that these are not in order):</p>
-  <div class="pl-2">
+  <p class="subsection-heading">backlog (note that these are not in order):</p>
+  <div class="subsection-body">
     {#each backlog as item}
       <p class="border-b border-gray-200 py-1 last:border-none">{item.name}</p>
     {:else}

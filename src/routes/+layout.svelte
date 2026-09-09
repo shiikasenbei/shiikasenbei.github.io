@@ -9,6 +9,10 @@
   <title>shika "shika" senbei</title>
 </svelte:head>
 <div class="page-wrapper">
+  <div class="border-b border-gray-400 p-4">
+    <p class="section-heading">shika "shika" senbei</p>
+    <p>i'm an idiot, and an artist apparently</p>
+  </div>
   <main class="page-main">
     {@render children()}
   </main>

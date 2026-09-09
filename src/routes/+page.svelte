@@ -3,7 +3,6 @@
   import FAQ from "$lib/components/FAQ.svelte"
   import ProgressList from "$lib/components/ProgressList.svelte"
   import { SOCIAL_LINKS, WORK_ITEMS } from "$lib/constants"
-  import { MediaQuery } from "svelte/reactivity"
 
   const links = SOCIAL_LINKS
   const things = WORK_ITEMS
@@ -14,10 +13,6 @@
 </script>
 
 <div class="flex h-full w-full flex-col">
-  <div class="border-b border-gray-400 p-4">
-    <p class="text-2xl font-bold">shika "shika" senbei</p>
-    <p>i'm an idiot, and an artist apparently</p>
-  </div>
   <div
     class="flex flex-row border-b border-gray-400 p-1 *:font-bold *:transition-colors md:hidden lg:hidden"
   >
@@ -43,7 +38,7 @@
   <div class="p-4 md:hidden lg:hidden">
     {#if currentTab == 0}
       <div class="h-full">
-        <p class="text-2xl font-bold">socials</p>
+        <p class="section-heading">socials</p>
         <div class="flex flex-col py-4">
           {#each links as link}
             <div class="my-1">
@@ -54,11 +49,6 @@
       </div>
     {:else if currentTab == 1}
       <div class="flex-col">
-        <p class="text-2xl font-bold">things i'm working on</p>
-        <p class="text-sm text-gray-500 italic">
-          shiori isn't mentioned here, but assume she is always being drawn at any given point, even
-          if she isn't.
-        </p>
         <div class="pb-4">
           <ProgressList {things} />
         </div>
@@ -68,8 +58,8 @@
     {/if}
   </div>
   <div class="hidden h-full w-full flex-row p-4 md:flex lg:flex">
-    <div class="h-full w-1/2 pr-2">
-      <p class="text-2xl font-bold">socials</p>
+    <div class="h-full w-1/2 pr-4">
+      <p class="section-heading">socials</p>
       <div class="flex flex-col py-4">
         {#each links as link}
           <div class="my-1">
@@ -78,12 +68,7 @@
         {/each}
       </div>
     </div>
-    <div class="w-1/2 flex-col border-l border-gray-400 pl-2">
-      <p class="text-2xl font-bold">things i'm working on</p>
-      <p class="text-sm text-gray-500 italic">
-        shiori isn't mentioned here, but assume she is always being drawn at any given point, even
-        if she isn't.
-      </p>
+    <div class="w-1/2 flex-col border-l border-gray-400 pl-4">
       <div class="pb-4">
         <ProgressList {things} />
       </div>

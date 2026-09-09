@@ -17,4 +17,18 @@
   .page-footer {
     @apply flex flex-row items-center border-t border-gray-500 p-4;
   }
+
+  .section-heading {
+    @apply text-2xl font-bold;
+  }
+  .subsection-heading {
+    @apply text-lg font-bold;
+  }
+  .subsection-body {
+    @apply border-l-2 border-gray-500 pl-2;
+  }
+
+  .help-text {
+    @apply text-sm text-gray-500 italic;
+  }
 }
