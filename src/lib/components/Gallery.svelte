@@ -41,7 +41,7 @@
         src={work.src}
         alt={work.name}
         loading="lazy"
-        class="w-1/4 rounded-md border border-gray-400"
+        class="sm:2/3 rounded-md border border-gray-400 md:w-1/4"
       />
     {/each}
   </div>
