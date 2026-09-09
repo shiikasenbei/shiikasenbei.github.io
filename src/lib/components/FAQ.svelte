@@ -26,7 +26,7 @@
       what is <i>shikamaxxing</i>? and why <i>shikamax</i>?
     </p>
     <p class="subsection-body">
-      draw deer for an hour, every day for 30 days. increases joy and whimsy with proven results
+      draw deer for an hour, every day for 30 days. joy and whimsy increases with proven results
       from day 1.
     </p>
   </div>
