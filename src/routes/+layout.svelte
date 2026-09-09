@@ -3,8 +3,8 @@
 
   import deer from "$lib/assets/deer.jpeg"
   import Nav from "$lib/components/Nav.svelte"
-  import { setContext, type Snippet } from "svelte"
-  let { children }: { children: Snippet<[{ currentTab: number }]> } = $props()
+  import { setContext } from "svelte"
+  let { children } = $props()
   let currentTab = $state(0) // 0: socials, 1: things i'm working on, 2: faq
   const setTabState = (tab: number) => {
     currentTab = tab
@@ -29,7 +29,7 @@
     <Nav tabState={currentTab} set={setTabState} />
   </div>
   <main class="page-main">
-    {@render children({ currentTab: currentTab })}
+    {@render children()}
   </main>
   <footer class="page-footer">
     <div class="flex w-1/2 flex-row items-center">

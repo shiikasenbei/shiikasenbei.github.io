@@ -2,7 +2,6 @@
   import Card from "$lib/components/Card.svelte"
   import FAQ from "$lib/components/FAQ.svelte"
   import Gallery from "$lib/components/Gallery.svelte"
-  import Nav from "$lib/components/Nav.svelte"
   import ProgressList from "$lib/components/ProgressList.svelte"
   import { SOCIAL_LINKS, WORK_ITEMS } from "$lib/constants"
   import { getContext } from "svelte"
