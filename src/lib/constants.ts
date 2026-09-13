@@ -8,8 +8,8 @@ export const SOCIAL_LINKS: SocialLink[] = [
 ]
 export const WORK_ITEMS: WorkItem[] = [
   { name: "30 days of shikamaxxing", inProgress: true },
+  { name: "toki tangente art contest entry", inProgress: true },
   { name: "oc design (maybe?)", inProgress: false },
-  { name: "gigi murin", inProgress: true },
-  { name: "ouro kronii", inProgress: false },
   { name: "raora panthera", inProgress: false },
+  { name: "more hololive related stuff (tbd)", inProgress: false },
 ]

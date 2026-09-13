@@ -20,6 +20,10 @@
       </a>
       for suggestions, and no, this does not mean you can freely use the artwork if i do draw it.
     </p>
+    <p class="subsection-body">
+      if you ask me to draw something and i say no, please don't ask me the same thing again! no
+      means no.
+    </p>
   </div>
   <div class="py-1">
     <p class="subsection-heading">
