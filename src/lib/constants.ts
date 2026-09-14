@@ -1,4 +1,5 @@
 import type { SocialLink, WorkItem } from "./types"
+import { daysInShikaPurgatory } from "./utils"
 
 export const SOCIAL_LINKS: SocialLink[] = [
   { name: "twitter", username: "@shiikasenbei", url: "https://x.com/shiikasenbei" },
@@ -7,8 +8,9 @@ export const SOCIAL_LINKS: SocialLink[] = [
   { name: "pixiv", username: "shika", url: "https://www.pixiv.net/en/users/128340030" },
 ]
 export const WORK_ITEMS: WorkItem[] = [
-  { name: "30 days of shikamaxxing", inProgress: true },
+  { name: `30 days of shikamaxxing (day ${daysInShikaPurgatory()})`, inProgress: true },
   { name: "toki tangente art contest entry", inProgress: true },
+  { name: "shiori novella", inProgress: true },
   { name: "oc design (maybe?)", inProgress: false },
   { name: "raora panthera", inProgress: false },
   { name: "more hololive related stuff (tbd)", inProgress: false },

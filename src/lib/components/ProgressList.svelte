@@ -9,8 +9,8 @@
 <div class="w-full">
   <p class="section-heading">things i'm working on</p>
   <p class="help-text">
-    shiori isn't mentioned here, but assume she is always being drawn at any given point, even if
-    she isn't.
+    even if shiori isn't explicitly listed here, assume she is always being drawn at any given
+    point.
   </p>
   <p class="subsection-heading">i am currently working on:</p>
   <div class="subsection-body">
