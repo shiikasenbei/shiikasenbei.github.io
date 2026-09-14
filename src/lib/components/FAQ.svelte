@@ -1,5 +1,8 @@
 <div class="w-full">
-  <p class="section-heading">(in)frequently asked questions</p>
+  <div class="inline-flex">
+    <p class="section-heading text-gray-400">in</p>
+    <p class="section-heading">frequently asked questions</p>
+  </div>
   <div class="py-1">
     <p class="subsection-heading">what do you draw?</p>
     <p class="subsection-body">
