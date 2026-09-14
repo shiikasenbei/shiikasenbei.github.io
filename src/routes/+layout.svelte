@@ -3,7 +3,8 @@
 
   import deer from "$lib/assets/deer.jpeg"
   import Nav from "$lib/components/Nav.svelte"
-  import { setContext } from "svelte"
+  import { onMount, setContext } from "svelte"
+  import { DESCRIPTION } from "$lib/constants"
   let { children } = $props()
   let currentTab = $state(0) // 0: socials, 1: things i'm working on, 2: faq
   const setTabState = (tab: number) => {
@@ -15,6 +16,11 @@
     },
     setTabState,
   })
+  let headerSubText = $state("")
+  onMount(() => {
+    // shuffle the header text...
+    headerSubText = DESCRIPTION[Math.floor(Math.random() * DESCRIPTION.length)]
+  })
 </script>
 
 <svelte:head>
@@ -24,7 +30,13 @@
   <div class="page-nav">
     <div class="border-b border-gray-400 p-4">
       <p class="section-heading">shika "shika" senbei</p>
-      <p>i'm an idiot, and an artist apparently</p>
+      <p
+        class="min-h-6 transition-opacity duration-300 {headerSubText
+          ? 'opacity-100'
+          : 'opacity-0'}"
+      >
+        {headerSubText}
+      </p>
     </div>
     <Nav tabState={currentTab} set={setTabState} />
   </div>

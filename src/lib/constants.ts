@@ -13,3 +13,10 @@ export const WORK_ITEMS: WorkItem[] = [
   { name: "raora panthera", inProgress: false },
   { name: "more hololive related stuff (tbd)", inProgress: false },
 ]
+
+export const DESCRIPTION: string[] = [
+  "part time holo artist full time idiot",
+  "i'm an idiot, and an artist apparently",
+  "shiorium addict",
+  "shikanoko nokonoko koshitantan...",
+]
