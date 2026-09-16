@@ -41,7 +41,9 @@
         src={work.src}
         alt={work.name}
         loading="lazy"
-        class="sm:2/3 rounded-md border border-gray-400 md:w-1/4"
+        class="sm:2/3 pointer-events-none rounded-md border border-gray-400 select-none md:w-1/4"
+        oncontextmenu={() => false}
+        draggable="false"
       />
     {/each}
   </div>

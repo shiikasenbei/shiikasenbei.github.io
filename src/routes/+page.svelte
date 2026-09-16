@@ -56,7 +56,7 @@
     {:else if tabState.currentTab === 2}
       <Gallery />
     {:else if tabState.currentTab === 3}
-      <div class="w-1/2 flex-col">
+      <div class="w-full flex-col">
         <FAQ />
       </div>
     {/if}

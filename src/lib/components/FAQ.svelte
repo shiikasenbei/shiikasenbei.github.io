@@ -1,4 +1,8 @@
-<div class="w-full">
+<script lang="ts">
+  import getmynameright from "$lib/assets/getmynameright.jpeg"
+</script>
+
+{#snippet sections()}
   <div class="inline-flex">
     <p class="section-heading text-gray-400">in</p>
     <p class="section-heading">frequently asked questions</p>
@@ -36,5 +40,20 @@
       draw deer for an hour, every day for 30 days. joy and whimsy increases with proven results
       from day 1.
     </p>
+  </div>
+{/snippet}
+
+<div class="flex w-full flex-col">
+  <div class="hidden w-full flex-row md:flex">
+    <div class="w-1/2">
+      {@render sections()}
+    </div>
+    <div class="w-1/2">
+      <img alt="get my name right" src={getmynameright} title="get my name right" />
+    </div>
+  </div>
+  <div class="flex flex-col md:hidden">
+    {@render sections()}
+    <img alt="get my name right" src={getmynameright} title="get my name right" />
   </div>
 </div>
