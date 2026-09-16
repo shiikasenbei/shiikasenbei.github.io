@@ -6,6 +6,11 @@ export const SOCIAL_LINKS: SocialLink[] = [
   { name: "instagram", username: "@shiikasenbei", url: "https://instagram.com/shiikasenbei" },
   { name: "twitch", username: "@shiikasenbei", url: "https://twitch.tv/shiikasenbei" },
   { name: "pixiv", username: "shika", url: "https://www.pixiv.net/en/users/128340030" },
+  {
+    name: "vgen (i have nothing here)",
+    username: "@shiikasenbei",
+    url: "https://vgen.co/shiikasenbei",
+  },
 ]
 export const WORK_ITEMS: WorkItem[] = [
   { name: `30 days of shikamaxxing (day ${daysInShikaPurgatory()})`, inProgress: true },
