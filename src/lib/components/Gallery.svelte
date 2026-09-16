@@ -13,7 +13,7 @@
 <div>
   <p class="section-heading">latest works</p>
   <p class="help-text">
-    all my completed work can be found on
+    all my completed hololive work can be found on
     <a
       href="https://www.pixiv.net/en/users/128340030"
       target="_blank"
