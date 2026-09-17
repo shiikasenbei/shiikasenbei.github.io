@@ -14,14 +14,19 @@ export const SOCIAL_LINKS: SocialLink[] = [
 ]
 export const WORK_ITEMS: WorkItem[] = [
   {
-    name: `30 days of shikamaxxing (day ${daysInShikaPurgatory()})`,
+    name: `shikamaxxing (day ${daysInShikaPurgatory()}/30)`,
     inProgress: true,
     confirmed: true,
   },
   { name: "shiori novella", inProgress: true, confirmed: true },
   { name: "oc design (maybe?)", inProgress: false, confirmed: true },
   { name: "raora panthera", inProgress: false, confirmed: false, candidate: true },
-  { name: "more hololive related stuff (tbd)", inProgress: false, confirmed: false },
+  {
+    name: "more hololive related stuff",
+    inProgress: false,
+    confirmed: false,
+    ongoing: true,
+  },
 ]
 
 export const DESCRIPTION: string[] = [
@@ -29,4 +34,5 @@ export const DESCRIPTION: string[] = [
   "i'm an idiot, and an artist apparently",
   "shiorium addict",
   "shikanoko nokonoko koshitantan...",
+  "deer",
 ]
