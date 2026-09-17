@@ -13,11 +13,15 @@ export const SOCIAL_LINKS: SocialLink[] = [
   },
 ]
 export const WORK_ITEMS: WorkItem[] = [
-  { name: `30 days of shikamaxxing (day ${daysInShikaPurgatory()})`, inProgress: true },
-  { name: "shiori novella", inProgress: true },
-  { name: "oc design (maybe?)", inProgress: true },
-  { name: "raora panthera", inProgress: false },
-  { name: "more hololive related stuff (tbd)", inProgress: false },
+  {
+    name: `30 days of shikamaxxing (day ${daysInShikaPurgatory()})`,
+    inProgress: true,
+    confirmed: true,
+  },
+  { name: "shiori novella", inProgress: true, confirmed: true },
+  { name: "oc design (maybe?)", inProgress: false, confirmed: true },
+  { name: "raora panthera", inProgress: false, confirmed: false, candidate: true },
+  { name: "more hololive related stuff (tbd)", inProgress: false, confirmed: false },
 ]
 
 export const DESCRIPTION: string[] = [

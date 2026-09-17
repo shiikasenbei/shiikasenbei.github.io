@@ -7,4 +7,6 @@ export interface SocialLink {
 export interface WorkItem {
   name: string
   inProgress: boolean
+  confirmed?: boolean
+  candidate?: boolean
 }
