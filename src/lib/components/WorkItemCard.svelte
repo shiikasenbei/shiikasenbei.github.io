@@ -9,8 +9,9 @@
     <p class="font-bold">
       {workItem.name}
     </p>
-
-    {#if workItem.inProgress}
+    {#if workItem.extraneousText}
+        <p class="text-gray-500">[{workItem.extraneousText}]</p>
+    {:else if workItem.inProgress}
       <p class="text-gray-500">[in progress]</p>
     {:else if workItem.ongoing}
       <p class="text-gray-500">[ongoing]</p>

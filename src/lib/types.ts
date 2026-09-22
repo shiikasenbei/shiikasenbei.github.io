@@ -11,4 +11,5 @@ export interface WorkItem {
   candidate?: boolean
   ongoing?: boolean
   description?: string
+  extraneousText?: string
 }
