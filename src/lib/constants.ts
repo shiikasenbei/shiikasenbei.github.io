@@ -21,7 +21,9 @@ export const WORK_ITEMS: WorkItem[] = [
   { name: "shiori novella (again!)", inProgress: true, confirmed: true },
   { name: "oc design", inProgress: true, confirmed: true },
   { name: "cecilia immergreen", inProgress: false, confirmed: true },
-  { name: "raora panthera", inProgress: false, confirmed: false, candidate: true },
+
+  { name: "hyakuto kyoko", inProgress: false, confirmed: false, candidate: true },
+  { name: "raora panthera", inProgress: false, confirmed: false, candidate: false },
   {
     name: "more hololive related stuff",
     inProgress: false,
