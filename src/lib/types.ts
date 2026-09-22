@@ -9,7 +9,6 @@ export interface WorkItem {
   inProgress: boolean
   confirmed?: boolean
   candidate?: boolean
-  ongoing?: boolean
   description?: string
   extraneousText?: string
 }
