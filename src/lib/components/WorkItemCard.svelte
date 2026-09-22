@@ -13,8 +13,6 @@
       <p class="text-gray-500">[{workItem.extraneousText}]</p>
     {:else if workItem.inProgress}
       <p class="text-gray-500">[in progress]</p>
-    {:else if workItem.ongoing}
-      <p class="text-gray-500">[ongoing]</p>
     {:else if workItem.candidate}
       <p class="text-gray-500">[next in queue]</p>
     {/if}
