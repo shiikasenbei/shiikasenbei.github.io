@@ -50,10 +50,16 @@
     </div>
     <div class="w-1/2">
       <img alt="get my name right" src={getmynameright} title="get my name right" />
+      <p class="text-center text-lg font-bold">
+        (disclaimer: both spellings are fine it's just funny)
+      </p>
     </div>
   </div>
   <div class="flex flex-col md:hidden">
     {@render sections()}
     <img alt="get my name right" src={getmynameright} title="get my name right" />
+    <p class="text-center text-sm font-bold">
+      (disclaimer: both spellings are fine it's just funny)
+    </p>
   </div>
 </div>
