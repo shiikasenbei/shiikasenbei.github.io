@@ -19,7 +19,7 @@ export const WORK_ITEMS: WorkItem[] = [
     confirmed: true,
   },
   { name: "shiori novella (again!)", inProgress: true, confirmed: true },
-  { name: "drawings for friends", inProgress: false, confirmed: true },
+  { name: "#fwoofart", inProgress: false, confirmed: true },
 
   { name: "hyakuto kyoko", inProgress: false, confirmed: false, candidate: true },
   { name: "cecilia immergreen", inProgress: false, confirmed: false, candidate: true },
