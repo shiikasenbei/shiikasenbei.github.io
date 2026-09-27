@@ -2,6 +2,7 @@ export interface SocialLink {
   name: string
   username: string
   url: string
+  description?: string
 }
 
 export interface WorkItem {

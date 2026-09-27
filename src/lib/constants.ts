@@ -6,11 +6,12 @@ export const SOCIAL_LINKS: SocialLink[] = [
   { name: "instagram", username: "@shiikasenbei", url: "https://instagram.com/shiikasenbei" },
   { name: "twitch", username: "@shiikasenbei", url: "https://twitch.tv/shiikasenbei" },
   { name: "pixiv", username: "shika", url: "https://www.pixiv.net/en/users/128340030" },
-  {
-    name: "vgen (i have nothing here)",
-    username: "@shiikasenbei",
-    url: "https://vgen.co/shiikasenbei",
-  },
+  // {
+  //   name: "vgen",
+  //   username: "@shiikasenbei",
+  //   url: "https://vgen.co/shiikasenbei",
+  //   description: "#soon"
+  // },
 ]
 export const WORK_ITEMS: WorkItem[] = [
   {
@@ -21,6 +22,9 @@ export const WORK_ITEMS: WorkItem[] = [
   { name: "#fwoofart", inProgress: true, confirmed: true },
   { name: "gigi murin", inProgress: false, confirmed: true },
   { name: "cecilia immergreen", inProgress: false, confirmed: true },
+
+  { name: "raora panthera", inProgress: false, confirmed: false, candidate: true },
+  { name: "suzuna tsuzuri", inProgress: false, confirmed: false, candidate: false },
 
   {
     name: "more hololive related stuff",
