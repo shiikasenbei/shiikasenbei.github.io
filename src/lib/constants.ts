@@ -20,7 +20,6 @@ export const WORK_ITEMS: WorkItem[] = [
     confirmed: true,
   },
   { name: "#fwoofart", inProgress: true, confirmed: true },
-  { name: "machina x flayon", inProgress: false, confirmed: true, extraneousText: "seriously?"},
   { name: "gigi murin", inProgress: false, confirmed: true },
   { name: "cecilia immergreen", inProgress: false, confirmed: true },
 
