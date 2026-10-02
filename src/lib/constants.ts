@@ -19,18 +19,18 @@ export const WORK_ITEMS: WorkItem[] = [
     inProgress: true,
     confirmed: true,
   },
-  { name: "#fwoofart", inProgress: true, confirmed: true },
-  { name: "gigi murin", inProgress: false, confirmed: true },
-  { name: "cecilia immergreen", inProgress: false, confirmed: true },
+  { name: "#fwoofart", inProgress: true, confirmed: true, link: "https://x.com/fwoouf" },
+  { name: "shiori novella", inProgress: false, confirmed: true },
+  { name: "#jyartchi", inProgress: false, confirmed: true, link: "https://x.com/katkaffie" },
 
-  { name: "raora panthera", inProgress: false, confirmed: false, candidate: true },
-  { name: "suzuna tsuzuri", inProgress: false, confirmed: false, candidate: false },
+  { name: "gigi murin", inProgress: false, confirmed: false, extraneousText: "on hold" },
+  { name: "cecilia immergreen", inProgress: false, confirmed: false, extraneousText: "on hold" },
 
   {
     name: "more hololive related stuff",
     inProgress: false,
     confirmed: false,
-    extraneousText: "ongoing",
+    extraneousText: "on hold",
   },
 ]
 
@@ -40,4 +40,8 @@ export const DESCRIPTION: string[] = [
   "shiorium addict",
   "shikanoko nokonoko koshitantan...",
   "deer",
+]
+
+export const ANNOUNCEMENTS: string[] = [
+  "all hololive art (after the current shiori piece) will be on hold until further notice.",
 ]

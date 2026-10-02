@@ -12,4 +12,5 @@ export interface WorkItem {
   candidate?: boolean
   description?: string
   extraneousText?: string
+  link?: string
 }

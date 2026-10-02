@@ -32,6 +32,7 @@
     "vite": "^8.0.16"
   },
   "dependencies": {
+    "@lucide/svelte": "^1.49.0",
     "temporal-polyfill": "^1.0.5"
   }
 }
