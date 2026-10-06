@@ -32,7 +32,8 @@ export const DESCRIPTION: string[] = [
   "part time holo artist full time idiot",
   "i'm an idiot, and an artist apparently",
   "shiorium addict",
-  "shikanoko nokonoko koshitantan...",
+  "🦌🍪",
+  "𐂂",
   "deer",
 ]
 
