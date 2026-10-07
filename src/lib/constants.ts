@@ -16,6 +16,7 @@ export const WORK_ITEMS: WorkItem[] = [
   { name: "shiori novella", inProgress: true, confirmed: true },
   { name: "#fwoofart", inProgress: false, confirmed: true, link: "https://x.com/fwoouf" },
   { name: "#jyartchi", inProgress: false, confirmed: true, link: "https://x.com/katkaffie" },
+  { name: "essie", inProgress: false, confirmed: true },
 
   { name: "gigi murin", inProgress: false, confirmed: false, extraneousText: "on hold" },
   { name: "cecilia immergreen", inProgress: false, confirmed: false, extraneousText: "on hold" },
