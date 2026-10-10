@@ -10,7 +10,7 @@
   <div class="py-1">
     <p class="subsection-heading">what do you draw?</p>
     <p class="subsection-body">
-      shiori novella. hololive members. sometimes umamusume. anything that provides joy and whimsy.
+      shiori novella. hololive members. sometimes umamusume. anything with joy and whimsy.
     </p>
   </div>
   <div class="py-1">
@@ -21,7 +21,7 @@
         href="https://x.com/shiikasenbei"
         target="_blank"
         rel="noopener noreferrer"
-        class="font-semibold hover:underline"
+        class="link-styling"
       >
         twitter
       </a>
@@ -30,6 +30,21 @@
     <p class="subsection-body">
       if you ask me to draw something and i say no, please don't ask me the same thing again! no
       means no.
+    </p>
+  </div>
+  <div class="py-1">
+    <p class="subsection-heading">where should i contact you?</p>
+    <p class="subsection-body">
+      for whatever reason if there is a need to contact me, please contact me on
+      <a
+        href="https://x.com/shiikasenbei"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="link-styling"
+      >
+        twitter
+      </a>
+      to have the highest chance of me actually getting to you at a reasonable time.
     </p>
   </div>
 {/snippet}

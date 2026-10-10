@@ -4,10 +4,12 @@
     query: "?url",
     import: "default",
   })
-  const works = Object.entries(modules).map(([path, src]) => ({
-    src: src as string,
-    name: path.split("/").pop()?.replace(".webp", "") ?? "",
-  }))
+  const works = Object.entries(modules)
+    .map(([path, src]) => ({
+      src: src as string,
+      name: path.split("/").pop()?.replace(".webp", "") ?? "",
+    }))
+    .reverse()
 </script>
 
 <div>
@@ -18,33 +20,35 @@
       href="https://www.pixiv.net/en/users/128340030"
       target="_blank"
       rel="noopener noreferrer"
-      class="font-semibold text-black hover:underline"
+      class="link-styling"
     >
       pixiv
     </a>.
   </p>
   <p class="help-text">
-    unrelated arts, sketches, wips, and the
-    <b>shikamaxxing</b> project can be found on
+    unrelated arts, sketches, and wips can be found on
     <a
       href="https://x.com/shiikasenbei"
       target="_blank"
       rel="noopener noreferrer"
-      class="font-semibold text-black hover:underline"
+      class="link-styling"
     >
       twitter
     </a>.
   </p>
-  <div class="grid grid-cols-1 items-center gap-4 py-4">
-    {#each works as work}
-      <img
-        src={work.src}
-        alt={work.name}
-        loading="lazy"
-        class="sm:2/3 pointer-events-none rounded-md border border-gray-400 select-none md:w-1/4"
-        oncontextmenu={() => false}
-        draggable="false"
-      />
-    {/each}
+  <div>
+    <div class="columns-1 gap-4 py-4 md:columns-2 lg:columns-3">
+      {#each works as work}
+        <img
+          src={work.src}
+          alt={work.name}
+          loading="lazy"
+          decoding="async"
+          draggable="false"
+          oncontextmenu={() => false}
+          class="pointer-events-none mb-4 w-full break-inside-avoid rounded-md border border-gray-400 select-none"
+        />
+      {/each}
+    </div>
   </div>
 </div>

@@ -1,9 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Scoutie+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Scoutie+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 @import "tailwindcss";
 
 @plugin "@tailwindcss/typography";
 
 @theme {
+  --color-shika: #41491f;
   --font-sans: "Scoutie Sans", sans-serif;
 }
 @layer components {
@@ -33,5 +34,9 @@
 
   .help-text {
     @apply text-sm text-gray-500 italic;
+  }
+
+  .link-styling {
+    @apply font-semibold text-black underline transition-colors hover:text-shika;
   }
 }

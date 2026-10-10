@@ -16,7 +16,6 @@ export const WORK_ITEMS: WorkItem[] = [
   { name: "shiori novella", inProgress: true, confirmed: true },
   { name: "#fwoofart", inProgress: false, confirmed: true, link: "https://x.com/fwoouf" },
   { name: "#jyartchi", inProgress: false, confirmed: true, link: "https://x.com/katkaffie" },
-  { name: "essie", inProgress: false, confirmed: true },
 
   { name: "gigi murin", inProgress: false, confirmed: false, extraneousText: "on hold" },
   { name: "cecilia immergreen", inProgress: false, confirmed: false, extraneousText: "on hold" },
@@ -27,15 +26,6 @@ export const WORK_ITEMS: WorkItem[] = [
     confirmed: false,
     extraneousText: "on hold",
   },
-]
-
-export const DESCRIPTION: string[] = [
-  "part time holo artist full time idiot",
-  "i'm an idiot, and an artist apparently",
-  "shiorium addict",
-  "🦌🍪",
-  "𐂂",
-  "deer",
 ]
 
 export const ANNOUNCEMENTS: string[] = [
