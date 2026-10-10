@@ -13,7 +13,6 @@ export const SOCIAL_LINKS: SocialLink[] = [
   // },
 ]
 export const WORK_ITEMS: WorkItem[] = [
-  { name: "shiori novella", inProgress: true, confirmed: true },
   { name: "#fwoofart", inProgress: false, confirmed: true, link: "https://x.com/fwoouf" },
   { name: "#jyartchi", inProgress: false, confirmed: true, link: "https://x.com/katkaffie" },
 
@@ -29,6 +28,6 @@ export const WORK_ITEMS: WorkItem[] = [
 ]
 
 export const ANNOUNCEMENTS: string[] = [
-  "all hololive art (after the current shiori piece) will be on hold until further notice.",
+  "all hololive art will be on hold until further notice.",
   "this is so i can clear out some of my personal works from the worklog.",
 ]
