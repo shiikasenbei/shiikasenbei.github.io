@@ -16,7 +16,7 @@
   <div class="py-1">
     <p class="subsection-heading">do you take commissions?</p>
     <p class="subsection-body">
-      no. sometimes i will ask on
+      possibly soon! sometimes i will ask on
       <a
         href="https://x.com/shiikasenbei"
         target="_blank"
@@ -25,11 +25,7 @@
       >
         twitter
       </a>
-      for suggestions, and no, this does not mean you can freely use the artwork if i do draw it.
-    </p>
-    <p class="subsection-body">
-      if you ask me to draw something and i say no, please don't ask me the same thing again! no
-      means no.
+      for suggestions.
     </p>
   </div>
   <div class="py-1">
