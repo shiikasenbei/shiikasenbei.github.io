@@ -14,6 +14,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
 ]
 export const WORK_ITEMS: WorkItem[] = [
   { name: "#jyartchi", inProgress: false, confirmed: true, link: "https://x.com/katkaffie" },
+  { name: 'shika "shika" senbei', inProgress: false, confirmed: true },
   { name: "manhattan cafe", inProgress: false, confirmed: true },
 
   { name: "irys", inProgress: false, confirmed: false, extraneousText: "on hold" },
