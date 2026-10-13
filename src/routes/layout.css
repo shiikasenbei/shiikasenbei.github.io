@@ -1,12 +1,32 @@
-@import url("https://fonts.googleapis.com/css2?family=Scoutie+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 @import "tailwindcss";
 
 @plugin "@tailwindcss/typography";
 
 @theme {
   --color-shika: #41491f;
-  --font-sans: "Scoutie Sans", sans-serif;
+  --font-pub-sans: "Public Sans", sans-serif;
+  --font-sans: var(--font-pub-sans);
 }
+
+@utility font-pub-sans-regular {
+  font-family: var(--font-pub-sans);
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+
+@utility font-pub-sans-medium {
+  font-family: var(--font-pub-sans);
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+@utility font-pub-sans-bold {
+  font-family: var(--font-pub-sans);
+  font-weight: 700;
+  letter-spacing: 0em;
+}
+
 @layer components {
   .page-wrapper {
     @apply flex min-h-screen flex-col;
@@ -23,20 +43,20 @@
   }
 
   .section-heading {
-    @apply text-2xl font-bold;
+    @apply font-pub-sans-bold text-2xl;
   }
   .subsection-heading {
-    @apply text-lg font-bold;
+    @apply font-pub-sans-bold text-lg;
   }
   .subsection-body {
     @apply border-l-2 border-gray-500 pl-2;
   }
 
   .help-text {
-    @apply text-sm text-gray-500 italic;
+    @apply font-pub-sans-regular text-sm text-gray-500 italic;
   }
 
   .link-styling {
-    @apply font-semibold text-black underline transition-colors hover:text-shika;
+    @apply font-pub-sans-medium text-black underline transition-colors hover:text-shika;
   }
 }
