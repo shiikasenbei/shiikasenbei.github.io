@@ -31,7 +31,7 @@
   <div class="py-1">
     <p class="subsection-heading">where should i contact you?</p>
     <p class="subsection-body">
-      for whatever reason if there is a need to contact me, please contact me on
+      for whatever reason if there is a need to contact me, please do so on
       <a
         href="https://x.com/shiikasenbei"
         target="_blank"
@@ -39,8 +39,7 @@
         class="link-styling"
       >
         twitter
-      </a>
-      to have the highest chance of me actually getting to you at a reasonable time.
+      </a>.
     </p>
   </div>
 {/snippet}
