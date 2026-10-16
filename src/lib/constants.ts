@@ -20,5 +20,4 @@ export const WORK_ITEMS: WorkItem[] = [
   { name: "gigi murin", inProgress: false, confirmed: false },
 ]
 
-export const ANNOUNCEMENTS: string[] = [
-]
+export const ANNOUNCEMENTS: string[] = []
