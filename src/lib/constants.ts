@@ -13,11 +13,12 @@ export const SOCIAL_LINKS: SocialLink[] = [
   // },
 ]
 export const WORK_ITEMS: WorkItem[] = [
+  { name: "gigi murin", inProgress: true, confirmed: true },
   { name: "#jyartchi", inProgress: false, confirmed: true, link: "https://x.com/katkaffie" },
-  { name: "manhattan cafe", inProgress: false, confirmed: true },
-  { name: "cecilia immergreen", inProgress: false, confirmed: true },
+  
+  { name: "cecilia immergreen", inProgress: false, confirmed: false },
+  { name: "manhattan cafe", inProgress: false, confirmed: false },
 
-  { name: "gigi murin", inProgress: false, confirmed: false },
 ]
 
 export const ANNOUNCEMENTS: string[] = []
