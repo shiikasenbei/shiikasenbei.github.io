@@ -25,7 +25,7 @@
     even if shiori isn't explicitly listed here, assume she is always being drawn at any given
     point.
   </p>
-  {#if announcements}
+  {#if announcements.length > 0}
     <div class="my-1 border-b border-gray-200 pb-2">
       <p class="subsection-heading">announcements</p>
       {#each announcements as announcement}
