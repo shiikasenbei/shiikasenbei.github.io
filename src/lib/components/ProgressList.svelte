@@ -14,17 +14,13 @@
     {#each items as item}
       <WorkItemCard workItem={item} />
     {:else}
-      <p>nothing :(</p>
+      <p>it's looking a bit empty...</p>
     {/each}
   </div>
 {/snippet}
 
 <div class="w-full">
   <p class="section-heading">things i'm working on</p>
-  <p class="help-text">
-    even if shiori isn't explicitly listed here, assume she is always being drawn at any given
-    point.
-  </p>
   {#if announcements.length > 0}
     <div class="my-1 border-b border-gray-200 pb-2">
       <p class="subsection-heading">announcements</p>

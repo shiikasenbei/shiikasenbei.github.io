@@ -17,7 +17,6 @@ export const WORK_ITEMS: WorkItem[] = [
   { name: "#jyartchi", inProgress: false, confirmed: true, link: "https://x.com/katkaffie" },
   { name: "cecilia immergreen", inProgress: false, confirmed: true },
   { name: "manhattan cafe", inProgress: false, confirmed: true },
-
 ]
 
 export const ANNOUNCEMENTS: string[] = []
