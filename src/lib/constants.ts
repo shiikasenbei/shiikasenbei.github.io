@@ -1,4 +1,4 @@
-import type { SocialLink, WorkItem } from "./types"
+import { Status, type SocialLink, type WorkItem } from "./types"
 
 export const SOCIAL_LINKS: SocialLink[] = [
   { name: "twitter", username: "@shiikasenbei", url: "https://x.com/shiikasenbei" },
@@ -12,11 +12,14 @@ export const SOCIAL_LINKS: SocialLink[] = [
   //   description: "#soon"
   // },
 ]
-export const WORK_ITEMS: WorkItem[] = [
-  { name: "gigi murin", inProgress: false, confirmed: true },
-  { name: "#jyartchi", inProgress: false, confirmed: true, link: "https://x.com/katkaffie" },
-  { name: "cecilia immergreen", inProgress: false, confirmed: true },
-  { name: "manhattan cafe", inProgress: false, confirmed: true },
-]
+export const WORK_ITEMS: Record<Status, WorkItem[]> = {
+  [Status.Backlog]: [],
+  [Status.InQueue]: [
+    { name: "#jyartchi", link: "https://x.com/katkaffie" },
+    { name: "manhattan cafe" },
+  ],
+  [Status.InProgress]: [{ name: "shiori novella" }],
+  [Status.OnHold]: [{ name: "gigi murin" }, { name: "cecilia immergreen" }],
+}
 
 export const ANNOUNCEMENTS: string[] = []

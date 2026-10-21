@@ -7,10 +7,14 @@ export interface SocialLink {
 
 export interface WorkItem {
   name: string
-  inProgress: boolean
-  confirmed?: boolean
-  candidate?: boolean
   description?: string
   extraneousText?: string
   link?: string
+}
+
+export enum Status {
+  Backlog,
+  InQueue,
+  InProgress,
+  OnHold,
 }

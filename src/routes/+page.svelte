@@ -12,21 +12,29 @@
 </script>
 
 <div class="flex h-full w-full flex-col">
-  <div class="p-4 md:hidden lg:hidden">
+  <div class="p-4">
     {#if tabState.currentTab === 0}
-      <div class="h-full">
-        <p class="section-heading">socials</p>
-        <div class="flex flex-col py-4">
-          {#each links as link}
-            <div class="my-1">
-              <Card
-                name={link.name}
-                url={link.url}
-                username={link.username}
-                description={link.description}
-              />
-            </div>
-          {/each}
+      <div class="grid grid-cols-1 md:grid-cols-2">
+        <div>
+          <p class="section-heading">about</p>
+          <div class="py-4">
+            <p>deer</p>
+          </div>
+        </div>
+        <div class="h-full">
+          <p class="section-heading">socials</p>
+          <div class="flex flex-col py-4">
+            {#each links as link}
+              <div class="my-1">
+                <Card
+                  name={link.name}
+                  url={link.url}
+                  username={link.username}
+                  description={link.description}
+                />
+              </div>
+            {/each}
+          </div>
         </div>
       </div>
     {:else if tabState.currentTab === 1}
@@ -39,36 +47,6 @@
       <Gallery />
     {:else if tabState.currentTab === 3}
       <FAQ />
-    {/if}
-  </div>
-  <div class="hidden h-full w-full flex-row p-4 md:flex lg:flex">
-    {#if tabState.currentTab === 0}
-      <div class="h-full w-1/2 pr-4">
-        <p class="section-heading">socials</p>
-        <div class="flex flex-col py-4">
-          {#each links as link}
-            <div class="my-1">
-              <Card
-                name={link.name}
-                url={link.url}
-                username={link.username}
-                description={link.description}
-              />
-            </div>
-          {/each}
-        </div>
-      </div>
-      <div class="h-full w-1/2 flex-col border-l border-gray-400 pl-4">
-        <div class="pb-4">
-          <ProgressList {things} />
-        </div>
-      </div>
-    {:else if tabState.currentTab === 2}
-      <Gallery />
-    {:else if tabState.currentTab === 3}
-      <div class="w-full flex-col">
-        <FAQ />
-      </div>
     {/if}
   </div>
 </div>

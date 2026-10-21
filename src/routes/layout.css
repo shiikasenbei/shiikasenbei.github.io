@@ -5,6 +5,11 @@
 
 @theme {
   --color-shika: #41491f;
+  --color-status-red: #be1014;
+  --color-status-green: #028430;
+  --color-status-blue: #279fd5;
+  --color-status-gray: #95979a;
+  --color-status-yellow: #ffbe00;
   --font-pub-sans: "Public Sans", sans-serif;
   --font-sans: var(--font-pub-sans);
 }

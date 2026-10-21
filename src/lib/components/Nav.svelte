@@ -10,10 +10,7 @@
 
 {#snippet backlog()}
   <button onclick={() => set(1)} class="rounded-md p-3 transition-colors hover:bg-gray-200">
-    <p class="hidden md:block {tabState !== 1 ? 'text-gray-400' : 'text-black'}">
-      things i'm working on
-    </p>
-    <p class="md:hidden {tabState !== 1 ? 'text-gray-400' : 'text-black'}">backlog</p>
+    <p class={tabState !== 1 ? "text-gray-400" : "text-black"}>backlog</p>
   </button>
 {/snippet}
 
@@ -35,6 +32,7 @@
     {@render about()}
     <!-- for future shika if you wonder why backlog is missing:
     we have screen size to spare! -->
+    {@render backlog()}
     {@render gallery()}
     {@render faq()}
   </div>
