@@ -22,7 +22,7 @@
 {#snippet board(heading: string, style: string, status: Status)}
   <div class="h-[calc(100dvh/3)]">
     <div class={`border-t-6 ${style} border-b border-b-gray-400`}>
-      <p class="section-heading p-2">{heading}</p>
+      <p class="text-lg p-2">{heading}</p>
     </div>
     {@render workList(things[status])}
   </div>
