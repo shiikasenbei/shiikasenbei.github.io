@@ -13,7 +13,6 @@ export const SOCIAL_LINKS: SocialLink[] = [
   // },
 ]
 export const WORK_ITEMS: WorkItem[] = [
-  { name: "gigi murin", inProgress: false, confirmed: true },
   { name: "#jyartchi", inProgress: false, confirmed: true, link: "https://x.com/katkaffie" },
   { name: "cecilia immergreen", inProgress: false, confirmed: true },
 ]
