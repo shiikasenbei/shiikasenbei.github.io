@@ -16,7 +16,7 @@
   <div class="py-1">
     <p class="subsection-heading">do you take commissions?</p>
     <p class="subsection-body">
-      possibly soon! sometimes i will ask on
+      soon! for the time being, i will sometimes ask for suggestions on
       <a
         href="https://x.com/shiikasenbei"
         target="_blank"
@@ -24,8 +24,7 @@
         class="link-styling"
       >
         twitter
-      </a>
-      for suggestions.
+      </a>.
     </p>
   </div>
   <div class="py-1">

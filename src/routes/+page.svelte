@@ -58,7 +58,7 @@
           {/each}
         </div>
       </div>
-      <div class="h-full w-1/2 flex-col border-l border-gray-400 pl-4">
+      <div class="h-full w-1/2 flex-col pl-4">
         <div class="pb-4">
           <ProgressList {things} />
         </div>
