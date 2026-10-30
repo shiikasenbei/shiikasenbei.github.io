@@ -5,12 +5,11 @@ export const SOCIAL_LINKS: SocialLink[] = [
   { name: "instagram", username: "@shiikasenbei", url: "https://instagram.com/shiikasenbei" },
   { name: "twitch", username: "@shiikasenbei", url: "https://twitch.tv/shiikasenbei" },
   { name: "pixiv", username: "shika", url: "https://www.pixiv.net/en/users/128340030" },
-  // {
-  //   name: "vgen",
-  //   username: "@shiikasenbei",
-  //   url: "https://vgen.co/shiikasenbei",
-  //   description: "#soon"
-  // },
+  {
+    name: "vgen",
+    username: "@shiikasenbei",
+    url: "https://vgen.co/shiikasenbei",
+  },
 ]
 export const WORK_ITEMS: WorkItem[] = [
   { name: "#jyartchi", inProgress: false, confirmed: true, link: "https://x.com/katkaffie" },
