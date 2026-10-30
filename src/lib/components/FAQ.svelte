@@ -16,15 +16,15 @@
   <div class="py-1">
     <p class="subsection-heading">do you take commissions?</p>
     <p class="subsection-body">
-      soon! for the time being, i will ask for suggestions on
+      waitlists for portraits/bust up/half body paintings are open on
       <a
-        href="https://x.com/shiikasenbei"
+        href="https://vgen.co/shiikasenbei"
         target="_blank"
         rel="noopener noreferrer"
         class="link-styling"
       >
-        twitter
-      </a> from time to time.
+        vgen
+      </a>.
     </p>
   </div>
   <div class="py-1">

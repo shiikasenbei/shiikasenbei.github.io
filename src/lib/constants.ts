@@ -9,6 +9,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
     name: "vgen",
     username: "@shiikasenbei",
     url: "https://vgen.co/shiikasenbei",
+    description: "waitlists open",
   },
 ]
 export const WORK_ITEMS: WorkItem[] = [
