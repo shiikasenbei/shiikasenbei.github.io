@@ -23,7 +23,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
     name: "pixiv",
     username: "shika",
     url: "https://www.pixiv.net/en/users/128340030",
-    colour: "border-t-blue",
+    colour: "border-t-status-blue",
   },
   {
     name: "vgen",

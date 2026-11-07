@@ -1,15 +1,9 @@
 <script lang="ts">
   import type { WorkItem } from "$lib/types"
   import { ArrowUpRight } from "@lucide/svelte"
-
+  import { openLink } from "$lib/util"
   let { workItem }: { workItem: WorkItem } = $props()
   let hasHref = $derived(workItem.link !== undefined)
-  const openLink = (url?: string) => {
-    if (!url) {
-      return
-    }
-    window.open(url, "_blank")
-  }
 </script>
 
 <div class="my-1 p-2">

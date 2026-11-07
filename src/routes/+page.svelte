@@ -15,10 +15,30 @@
   <div class="p-4">
     {#if tabState.currentTab === 0}
       <div class="grid grid-cols-1 md:grid-cols-2">
-        <div>
+        <div class="border-b border-b-gray-400 pb-2 md:border-none md:pb-0">
           <p class="section-heading">about</p>
           <div class="py-4">
-            <p>(mostly) a holo fanartist</p>
+            <p>shika, (mostly) a holo fanartist</p>
+            <p>
+              my oc reference can be found <a
+                href="https://x.com/shiikasenbei/status/2103440664952443116"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="link-styling"
+              >
+                here
+              </a>
+            </p>
+            <p>
+              waitlists for commissions are also open on my <a
+                href="https://vgen.co/shiikasenbei"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="link-styling"
+              >
+                vgen
+              </a>
+            </p>
           </div>
         </div>
         <div class="h-full">
