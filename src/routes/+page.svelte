@@ -15,7 +15,7 @@
   <div class="p-4">
     {#if tabState.currentTab === 0}
       <div class="grid grid-cols-1 md:grid-cols-2">
-        <div class="border-b border-b-gray-400 pb-2 md:border-none md:pb-0">
+        <div class="mb-4 border-b border-b-gray-400 md:mb-0 md:border-none">
           <p class="section-heading">about</p>
           <div class="py-4">
             <p>shika, (mostly) a holo fanartist</p>

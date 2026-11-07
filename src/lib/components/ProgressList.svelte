@@ -14,7 +14,7 @@
         <WorkItemCard workItem={item} />
       </div>
     {:else}
-      <p class="p-2 text-lg">it's looking a bit empty...</p>
+      <p class="p-2">it's looking a bit empty...</p>
     {/each}
   </div>
 {/snippet}
@@ -29,7 +29,7 @@
 {/snippet}
 
 <div class="w-full">
-  <!-- <p class="section-heading">things i'm working on</p> -->
+  <p class="section-heading mb-4">backlog</p>
   {#if announcements.length > 0}
     <div class="my-1 border-b border-gray-200 pb-2">
       <p class="subsection-heading">announcements</p>
