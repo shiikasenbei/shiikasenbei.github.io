@@ -15,7 +15,7 @@
   <div class="flex w-full flex-row justify-between">
     <p class="text-lg font-bold">{name}</p>
     {#if description}
-      <p class="text-gray-500">{description}</p>
+      <p class="text-gray-500">[{description}]</p>
     {/if}
   </div>
   <p>{username}</p>
