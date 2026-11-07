@@ -18,7 +18,7 @@
         <div>
           <p class="section-heading">about</p>
           <div class="py-4">
-            <p>deer</p>
+            <p>(mostly) a holo fanartist</p>
           </div>
         </div>
         <div class="h-full">
@@ -31,6 +31,7 @@
                   url={link.url}
                   username={link.username}
                   description={link.description}
+                  colour={link.colour}
                 />
               </div>
             {/each}

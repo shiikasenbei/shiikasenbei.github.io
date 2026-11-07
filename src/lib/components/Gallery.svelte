@@ -13,7 +13,8 @@
 </script>
 
 <div>
-  <p class="section-heading">latest works</p>
+  <p class="section-heading">works</p>
+  <p class="help-text">this features some of my recent and/or popular works.</p>
   <p class="help-text">
     all my completed hololive work can be found on
     <a

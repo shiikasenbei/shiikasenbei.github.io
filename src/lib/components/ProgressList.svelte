@@ -22,7 +22,7 @@
 {#snippet board(heading: string, style: string, status: Status)}
   <div class="h-[calc(100dvh/3)]">
     <div class={`border-t-6 ${style} border-b border-b-gray-400`}>
-      <p class="text-lg p-2">{heading}</p>
+      <p class="p-2 text-lg font-bold">{heading}</p>
     </div>
     {@render workList(things[status])}
   </div>
@@ -38,13 +38,6 @@
       {/each}
     </div>
   {/if}
-  <!-- <div class="my-1 border-b border-gray-200 pb-2">
-    {@render workList(inProgress, "shika-blue", "in queue")}
-  </div>
-  <div>
-    <p class="subsection-heading">backlog (note that these are not in order):</p>
-    {@render workList(backlog, '', '')}
-  </div> -->
   <div class="grid grid-cols-1 gap-2 md:grid-cols-2">
     {@render board("in progress", "border-status-blue", Status.InProgress)}
     {@render board("in queue", "border-status-yellow", Status.InQueue)}

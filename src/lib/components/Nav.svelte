@@ -16,8 +16,7 @@
 
 {#snippet gallery()}
   <button onclick={() => set(2)} class="rounded-md p-3 transition-colors hover:bg-gray-200">
-    <p class="hidden md:block {tabState !== 2 ? 'text-gray-400' : 'text-black'}">latest works</p>
-    <p class="md:hidden {tabState !== 2 ? 'text-gray-400' : 'text-black'}">gallery</p>
+    <p class={tabState !== 2 ? "text-gray-400" : "text-black"}>works</p>
   </button>
 {/snippet}
 
@@ -30,8 +29,6 @@
 <div>
   <div class="hidden flex-row p-1 *:font-bold *:transition-colors md:flex">
     {@render about()}
-    <!-- for future shika if you wonder why backlog is missing:
-    we have screen size to spare! -->
     {@render backlog()}
     {@render gallery()}
     {@render faq()}

@@ -17,21 +17,21 @@
     {#if hasHref}
       <button
         type="button"
-        class="flex flex-row align-middle font-bold hover:cursor-pointer hover:underline"
+        class="flex flex-row align-middle hover:cursor-pointer hover:underline"
         onclick={() => openLink(workItem.link)}
       >
-        <p class="subsection-heading hover:pointer-events-none">
+        <p class="hover:pointer-events-none">
           {workItem.name}
         </p>
         <ArrowUpRight class="size-5" />
       </button>
     {:else}
-      <p class="subsection-heading">
+      <p>
         {workItem.name}
       </p>
     {/if}
     {#if workItem.extraneousText}
-      <p class="text-gray-500">[{workItem.extraneousText}]</p>
+      <p class="bg-info-gray text-white">{workItem.extraneousText}</p>
     {/if}
   </div>
   {#if workItem.description}

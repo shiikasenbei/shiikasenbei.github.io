@@ -3,6 +3,7 @@ export interface SocialLink {
   username: string
   url: string
   description?: string
+  colour: string
 }
 
 export interface WorkItem {
