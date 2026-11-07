@@ -3,7 +3,7 @@
 </script>
 
 {#snippet sections()}
-  <div class="inline-flex">
+  <div class="mb-4 inline-flex">
     <p class="section-heading text-gray-400">in</p>
     <p class="section-heading">frequently asked questions</p>
   </div>

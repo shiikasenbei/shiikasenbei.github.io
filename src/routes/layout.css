@@ -5,8 +5,18 @@
 
 @theme {
   --color-shika: #41491f;
+  --color-status-red: #be1014;
+  --color-status-green: #028430;
+  --color-status-blue: #279fd5;
+  --color-status-gray: #95979a;
+  --color-status-yellow: #ffbe00;
+  --color-social-blue: #00a9ed;
+  --color-social-pink: #f59bbb;
+  --color-social-purple: #8f1a95;
+  --color-social-green: #78be20;
   --font-pub-sans: "Public Sans", sans-serif;
   --font-sans: var(--font-pub-sans);
+  --color-info-gray: #333434;
 }
 
 @utility font-pub-sans-regular {
@@ -49,7 +59,7 @@
     @apply font-pub-sans-bold text-lg;
   }
   .subsection-body {
-    @apply border-l-2 border-gray-500 pl-2;
+    @apply border-l-4 border-l-social-green pl-2;
   }
 
   .help-text {

@@ -1,23 +1,17 @@
 <script lang="ts">
   import type { WorkItem } from "$lib/types"
   import { ArrowUpRight } from "@lucide/svelte"
-
+  import { openLink } from "$lib/util"
   let { workItem }: { workItem: WorkItem } = $props()
   let hasHref = $derived(workItem.link !== undefined)
-  const openLink = (url?: string) => {
-    if (!url) {
-      return
-    }
-    window.open(url, "_blank")
-  }
 </script>
 
-<div class="my-1 rounded-md border border-gray-300 p-4">
+<div class="my-1 p-2">
   <div class="flex w-full flex-row justify-between">
     {#if hasHref}
       <button
         type="button"
-        class="flex flex-row align-middle font-bold hover:cursor-pointer hover:underline"
+        class="flex flex-row align-middle hover:cursor-pointer hover:underline"
         onclick={() => openLink(workItem.link)}
       >
         <p class="hover:pointer-events-none">
@@ -26,16 +20,12 @@
         <ArrowUpRight class="size-5" />
       </button>
     {:else}
-      <p class="font-bold">
+      <p>
         {workItem.name}
       </p>
     {/if}
     {#if workItem.extraneousText}
-      <p class="text-gray-500">[{workItem.extraneousText}]</p>
-    {:else if workItem.inProgress}
-      <p class="text-gray-500">[in progress]</p>
-    {:else if workItem.candidate}
-      <p class="text-gray-500">[next in queue]</p>
+      <p class="bg-info-gray text-white">{workItem.extraneousText}</p>
     {/if}
   </div>
   {#if workItem.description}
