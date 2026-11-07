@@ -20,6 +20,17 @@
           <div class="py-4">
             <p>shika, (mostly) a holo fanartist</p>
             <p>
+              i also stream on
+              <a
+                href="https://twitch.tv/shiikasenbei"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="link-styling"
+              >
+                twitch
+              </a>
+            </p>
+            <p>
               my oc reference can be found <a
                 href="https://x.com/shiikasenbei/status/2103440664952443116"
                 target="_blank"
