@@ -40,7 +40,7 @@ export const WORK_ITEMS: Record<Status, WorkItem[]> = {
     { name: "#jyartchi", link: "https://x.com/katkaffie" },
   ],
   [Status.InProgress]: [{ name: "veilvet whitmore" }],
-  [Status.OnHold]: [{ name: "ouro kronii" }],
+  [Status.OnHold]: [],
 }
 
 export const ANNOUNCEMENTS: string[] = []
